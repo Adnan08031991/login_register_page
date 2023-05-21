@@ -1,11 +1,5 @@
 body {
-    background: linear-gradient(to right, 
-    #2980b9, 
-    #6dd5fa, 
-    #ffffff
-    );
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
@@ -63,8 +57,10 @@ body {
     height: 100%;
     width: 50%;
     flex-grow: 1;
-    border: 1px solid black;
     padding: 10px;
+    color: black;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .presentation{
     height: 100%;
@@ -156,5 +152,19 @@ body {
   }
   span >p{
     color: grey;
+  }
+  .input {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input > label {
+    width: 100%;
+    text-align: left;
+    margin-left: 25px;
+  }
+  
+  .input > input {
+    width: 100%;
   }
   
