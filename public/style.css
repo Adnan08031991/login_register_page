@@ -114,7 +114,7 @@ body {
     border-radius: 50px;
 }
 .bi-instagram {
-    --gradient-colors: linear-gradient(to bottom right, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    --gradient-colors: linear-gradient(to top right, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
     font-size: 30px;
     flex-grow: 1;
     background: var(--gradient-colors);
