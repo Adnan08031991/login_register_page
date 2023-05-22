@@ -223,3 +223,8 @@ a{
     margin-top: 100px;
     width: 70%;
   }
+  input[type="email"],
+input[type="password"] {
+  height: 40px;
+  border-radius: 40px;
+}
