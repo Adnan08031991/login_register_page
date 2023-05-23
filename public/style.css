@@ -9,12 +9,24 @@ body {
     margin: 0px;
     text-align: center;
     font-family: sans-serif;
+    font-size: 12px;
   }
-  
-  h2 {
-    font-size: 40px;
+  .logo{
+    display: flex;
+    align-items: center;
+  }
+  .title{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width:50%;
+    margin:0px;
+    font-weight: bold;
+    font-size: 30px;
   }
   .moto{
+    width: 50%;
+    margin-bottom: 30px;
     text-align: left;
   }
   .icon-container {
@@ -36,6 +48,7 @@ body {
   } 
   button:hover {
     background-color: #0056b3; 
+    color: white;
   }
   #container{
     height:100vh;
@@ -52,7 +65,7 @@ body {
   border: 1px solid #dddddd;
   border-radius: 50px;
   cursor: pointer;
-  width: 70% !important;
+  width: 50% !important;
 }
 .login-form{
     display: flex;
@@ -63,7 +76,6 @@ body {
     color: black;
     justify-content: center;
     align-items: center;
-    text-align: center;      
 }
 .presentation{
     height: 100%;
@@ -143,7 +155,7 @@ body {
     margin-top: 10px;
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 50%;
     text-align: center;
     color: grey;
   }
@@ -161,26 +173,25 @@ body {
   .input {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 50%;
   }
   
   .input > label {
     text-align: left;
+    font-weight: bold;
   }
-  
-  .input > input {
-    width: 100%;
-}
 input{
-    width: 100%;
+    width: 93%;
     background-color: #ffffff;
     border: 1px solid #dddddd;
     border-radius: 20px;
     margin-top: 5px;
+    height: 40px;
+    padding-left: 20px;
 }  
 .checkbox {
-    width: 70%;
-    margin-top: 20px;
+    width: 50%;
+    margin-top: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -191,14 +202,15 @@ input{
     align-items: center;
     height: auto;
     white-space: nowrap;
+    font-weight: bold;
   }
   .checkbox input[type="checkbox"] {
     margin-right: 8px;
   }
   .login {
     height: 50px !important;
-    width: 70% !important;
-    margin-top: 20px;
+    width: 50% !important;
+    margin-top: 5px;
     background-color: #4f20d1;
     border: 1px solid #dddddd;
     border-radius: 50px;
@@ -209,17 +221,20 @@ a{
     text-decoration: none;
 }
 .redirect{
-    width: 70%;
+    width: 50%;
     margin-top: 30px;
     display: flex;
     justify-content: left;
+    font-weight: bold;
 }
 .copyright {
     display: flex;
-    margin-top: 20px;
+    margin-top: 100px;
     font-size: 12px;
     color: #635858;
     justify-content: left;
-    margin-top: 100px;
-    width: 70%;
+    width: 50%;
   }
+button{
+  font-weight: bold;
+}
