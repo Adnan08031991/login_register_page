@@ -9,15 +9,24 @@ body {
     margin: 0px;
     text-align: center;
     font-family: sans-serif;
+    font-size: 12px;
   }
-  
-  h2 {
-    margin: 5px;
-    flex-grow: 1;
-    font-size: 20px;
-    text-align: left;
+  .logo{
+    display: flex;
+    align-items: center;
+    width: 50%;
+  }
+  .title{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width:50%;
+    margin:0px;
+    font-weight: bold;
+    font-size: 30px;
   }
   .moto{
+    width: 50%;
     margin: 5px;
     text-align: left;
   }
@@ -39,7 +48,7 @@ body {
   border: 1px solid #dddddd;
   border-radius: 50px;
   cursor: pointer;
-  width: 70% !important;
+  width: 50% !important;
 }
 .signup-form{
     display: flex;
@@ -71,7 +80,7 @@ body {
     margin-top: 10px;
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 50%;
     text-align: center;
     color: grey;
   }
@@ -89,28 +98,24 @@ body {
   .input {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 50%;
   }
   
   .input > label {
     text-align: left;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    font-weight:bold;    
   }
-  
-  .input > input {
-    padding-left: 20px;
-    width: 100%;
-}
 input{
-    width: 100%;
+    width: 93%;
     background-color: #ffffff;
     border: 1px solid #dddddd;
     border-radius: 20px;
     margin-top: 5px;
+    height: 40px;
+    padding-left: 20px;
 }  
 .checkbox {
-    width: 70%;
+    width: 50%;
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -122,13 +127,14 @@ input{
     align-items: center;
     height: auto;
     white-space: nowrap;
+    font-weight: bold;
   }
   .checkbox input[type="checkbox"] {
     margin-right: 8px;
   }
-  .login {
+  .sign-up {
     height: 50px !important;
-    width: 70% !important;
+    width: 50% !important;
     margin-top: 20px;
     background-color: #4f20d1;
     border: 1px solid #dddddd;
@@ -140,10 +146,11 @@ a{
     text-decoration: none;
 }
 .redirect{
-    width: 70%;
+    width: 50%;
     margin-top: 30px;
     display: flex;
     justify-content: left;
+    font-weight: bold;
 }
 .copyright {
     display: flex;
@@ -151,7 +158,10 @@ a{
     font-size: 12px;
     color: #635858;
     justify-content: left;
-    width: 70%;
+    width: 50%;
+  }
+  button{
+    font-weight: bold;
   }
   input[type="email"],
 input[type="password"], input[type="text"]  {

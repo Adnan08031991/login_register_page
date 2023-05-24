@@ -14,6 +14,8 @@ body {
   .logo{
     display: flex;
     align-items: center;
+    width: 50%;
+    
   }
   .title{
     display: flex;
