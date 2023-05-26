@@ -99,10 +99,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     background-color: white;
     border-radius: 50px;
+    position: absolute;
+    top: 24.7%;
+    left: 20.31%;
 }
 .bi-twitter{
     font-size: 30px;
@@ -113,10 +116,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     background-color: white;
     border-radius: 50px;
+    position: absolute;
+    top:13%;
+    left: 37%;
+
 }
 .bi-instagram {
     --gradient-colors: linear-gradient(to top right, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
@@ -130,10 +137,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     background-color: white;
     border-radius: 50px;
+    position: absolute;
+    top: 82%;
+    left: 69%;
 }
 .bi-messenger {
     --gradient-colors: linear-gradient(to top right, #0695ff, #a334fa, #ff6968);
@@ -145,13 +155,20 @@ body {
   }
   .earnings{
     flex-grow: 1;
-    height: 200px;
-    width:300px;
+    height: 158px;
+    width:234px;
+    position: absolute;
+    top: 56%;
+    left: 20.31%;
   }
   .rewards{
     flex-grow: 1;
-    height: 200px;
-    width:190px
+    height: 222px;
+    width:182px;
+    object-fit: contain;
+    position: absolute;
+    top: 17.64%;
+    left: 49.6%;
   }
   .centered-text {
     margin-top: 10px;
@@ -242,21 +259,21 @@ button{
 }
 .presentation{
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
 }
 .visual{
+  position: relative;
   display: flex;
   flex-grow: 1;
-  height: 65%;
+  height: 63%;
+
 }
 .text{
   flex-grow: 1;
   flex-direction: column;
   display: flex;
   width:50%;
-  height: 35%;
+  height: 37%;
   justify-content: space-between;
   align-items: center;
 }
