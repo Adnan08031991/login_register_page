@@ -272,10 +272,11 @@ button{
   flex-grow: 1;
   flex-direction: column;
   display: flex;
-  width:50%;
+  width:100%;
   height: 37%;
   justify-content: space-between;
   align-items: center;
+  position:relative;
 }
 .presentation-moto{
   flex-grow: 1;
@@ -284,9 +285,51 @@ button{
   font-weight: bold;
   margin: 0px;
   padding: 0px;
-  height: 50px;
+  margin-top: 20px;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
-.text > p{
-  flex-grow: 1;
-  
+.presentation-description{
+  flex:0 0 auto;
+  margin: 0px;
+  justify-content:baseline;
+  line-height: 1;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
+.slider {
+  display: flex;
+  justify-content: center;
+  width: 100px; 
+  position: absolute;
+  top:140px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.dot {
+  width: 5px;
+  height: 5px; 
+  background-color: gray; 
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.dot:first-child {
+  margin-right: 5px;
+  width: 15px; 
+  border-radius: 10px;
+}
+
+.dot.active {
+  background-color: white;
+}
+
