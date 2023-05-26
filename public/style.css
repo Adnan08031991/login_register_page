@@ -1,3 +1,6 @@
+*{
+  border: 1px solid black;
+}
 body {
     display: flex;
     justify-content: center;
@@ -333,8 +336,104 @@ button{
   background-color: white;
 }
 
-.background{
-  width: 20px;
-  height: 100px;
+.background-rectangle{
+  width:180px;
+  height:150px;
+  display: flex;
+}
+.background-rectangle1{
+  width: 60px;
+  height: 150px;
   background-color: #3521b5;
+}
+.background-rectangle2{
+  width: 60px;
+  height: 90px;
+  background-color: #3521b5;
+}
+.background-rectangle3{
+  width: 60px;
+  height: 30px;
+  background-color: #3521b5;
+}
+.background-triangle{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  width: 160px;
+  height: 80px;
+  background-color: #3521b5;
+  position: relative;
+  left:195px;
+  top:42px;
+  justify-content: center;
+  align-items: center;
+}
+.background-triangle1 {
+  border-right: 40px solid transparent;
+  border-bottom: 40px solid #5138ee;
+  text-align: center; 
+}
+.outer-circle1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 145px;
+  width: 145px;
+  background-color: #3521b5;
+  position: absolute;
+  top:175px;
+  left:255px;
+  border-radius: 50%;
+}
+.inner-circle1 {
+  height: 142px;
+  width: 142px;
+  background-color: #5138ee;
+  position: relative;
+  border-radius: 50%;
+}
+.outer-circle2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  background-color: #3521b5;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.inner-circle2 {
+  height: 66px;
+  width: 66px;
+  background-color: #5138ee;
+  position: absolute;
+  border-radius: 50%;
+}
+.dots-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:180px;
+  height: 80px;
+  background-color: #5138ee;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  top: 295px;
+  left: 10px;
+  padding-top: 20px;
+}
+.dots-body{
+  height: 20px;
+  width:30px;
+}
+.dots{
+  height: 3px;
+  width: 3px;
+  border-radius:3px ;
+  background-color: #3521b5 ;
 }
