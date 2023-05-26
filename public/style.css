@@ -108,7 +108,7 @@ body {
     left: 20.31%;
 }
 .bi-twitter{
-    font-size: 30px;
+    font-size: 25px;
     flex-grow: 1;
     color: #1DA1F2;
 }
@@ -127,7 +127,7 @@ body {
 }
 .bi-instagram {
     --gradient-colors: linear-gradient(to top right, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
-    font-size: 30px;
+    font-size: 20px;
     flex-grow: 1;
     background: var(--gradient-colors);
     -webkit-background-clip: text;
@@ -147,7 +147,7 @@ body {
 }
 .bi-messenger {
     --gradient-colors: linear-gradient(to top right, #0695ff, #a334fa, #ff6968);
-    font-size: 30px;
+    font-size: 20px;
     flex-grow: 1;
     background: var(--gradient-colors);
     -webkit-background-clip: text;
