@@ -83,7 +83,7 @@ body {
     height: 100%;
     width: 50%;
     flex-grow: 1;
-    background-color: #4f20d1;
+    background-color: #5138ee;
 }
 .bi-google{
     font-size: 18px;
@@ -230,7 +230,7 @@ input{
     height: 50px !important;
     width: 50% !important;
     margin-top: 5px;
-    background-color: #4f20d1;
+    background-color: #5138ee;
     border: 1px solid #dddddd;
     border-radius: 50px;
     cursor: pointer;
@@ -333,3 +333,8 @@ button{
   background-color: white;
 }
 
+.background{
+  width: 20px;
+  height: 100px;
+  background-color: #3521b5;
+}
