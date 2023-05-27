@@ -213,6 +213,67 @@ input[type="password"], input[type="text"]  {
   border-bottom: 40px solid #5138ee;
   text-align: center; 
 }
+.outer-circle1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 145px;
+  width: 145px;
+  background-color: #3521b5;
+  position: absolute;
+  top:175px;
+  left:255px;
+  border-radius: 50%;
+}
+.inner-circle1 {
+  height: 142px;
+  width: 142px;
+  background-color: #5138ee;
+  position: relative;
+  border-radius: 50%;
+}
+.outer-circle2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  background-color: #3521b5;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.inner-circle2 {
+  height: 66px;
+  width: 66px;
+  background-color: #5138ee;
+  position: absolute;
+  border-radius: 50%;
+}
+.dots-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:140px;
+  height: 80px;
+  background-color: #5138ee;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  top: 67%;
+  left: 10%;
+  padding-top: 20px;
+}
+.dots{
+  margin: 8px 10px;
+  height: 2px;
+  width: 2px;
+  border-radius:3px ;
+  background-color: #3521b5 ;
+}
+
 .text{
   flex-grow: 1;
   flex-direction: column;
