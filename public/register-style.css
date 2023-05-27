@@ -387,9 +387,8 @@ input[type="password"], input[type="text"]  {
 }
 
 .overview{
-  width:85%;
-  height:90%;
+  width:90%;
+  height:85%;
   position: absolute;
   top:19%;
-  left:0%;
 }
