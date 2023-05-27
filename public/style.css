@@ -104,7 +104,7 @@ body {
     background-color: white;
     border-radius: 50px;
     position: absolute;
-    top: 24.7%;
+    top: 32%;
     left: 20.31%;
 }
 .bi-twitter{
@@ -265,7 +265,7 @@ button{
   position: relative;
   display: flex;
   flex-grow: 1;
-  height: 63%;
+  height: 62.5%;
 
 }
 .text{
@@ -273,7 +273,7 @@ button{
   flex-direction: column;
   display: flex;
   width:100%;
-  height: 37%;
+  height: 37.5%;
   justify-content: space-between;
   align-items: center;
   position:relative;
@@ -334,23 +334,23 @@ button{
 }
 
 .background-rectangle{
-  width:180px;
+  width:150px;
   height:150px;
   display: flex;
 }
 .background-rectangle1{
-  width: 60px;
+  width: 50px;
   height: 150px;
   background-color: #3521b5;
 }
 .background-rectangle2{
-  width: 60px;
-  height: 90px;
+  width: 50px;
+  height: 100px;
   background-color: #3521b5;
 }
 .background-rectangle3{
-  width: 60px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   background-color: #3521b5;
 }
 .background-triangle{
@@ -361,7 +361,7 @@ button{
   height: 80px;
   background-color: #3521b5;
   position: relative;
-  left:195px;
+  left:35%;
   top:42px;
   justify-content: center;
   align-items: center;
@@ -421,7 +421,7 @@ button{
   justify-content: space-between;
   align-items: center;
   top: 295px;
-  left: 10px;
+  left: 6%;
   padding-top: 20px;
 }
 .dots-body{
@@ -433,4 +433,44 @@ button{
   width: 3px;
   border-radius:3px ;
   background-color: #3521b5 ;
+}
+
+.bottom-rectangle1{
+  width:250px;
+  height:50px;
+  background-color: #3521b5;
+  position: absolute;
+  top:80%;
+  left:61.3%;
+}
+.bottom-rectangle2{
+  width: 200px;
+  height: 50px;
+  background-color: #3521b5;
+  position: absolute;
+  top:59.9%;
+  left:69%;
+}
+.bottom-rectangle3{
+  width: 150px;
+  height: 50px;
+  background-color: #3521b5;
+  position: absolute;
+  top:40%;
+  left:76.8%;
+}
+.bottom-rectangle4{
+  width: 100px;
+  height: 50px;
+  background-color: #3521b5;
+  position: absolute;
+  top:20%;
+  left:84.5%;
+}
+.bottom-rectangle5{
+  width: 50px;
+  height: 50px;
+  background-color: #3521b5;
+  position: absolute;
+  left:92.2%;
 }

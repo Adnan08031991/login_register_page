@@ -172,7 +172,7 @@ input[type="password"], input[type="text"]  {
   position: relative;
   display: flex;
   flex-grow: 1;
-  height: 63%;
+  height: 62.5%;
 
 }
 .text{
@@ -180,7 +180,7 @@ input[type="password"], input[type="text"]  {
   flex-direction: column;
   display: flex;
   width:100%;
-  height: 37%;
+  height: 37.5%;
   justify-content: space-between;
   align-items: center;
   position:relative;
@@ -238,4 +238,43 @@ input[type="password"], input[type="text"]  {
 
 .dot.active {
   background-color: white;
+}
+.bottom-rectangle1{
+  width:250px;
+  height:50px;
+  background-color: #3521b5;
+  position: absolute;
+  top:80%;
+  left:61.3%;
+}
+.bottom-rectangle2{
+  width: 200px;
+  height: 50px;
+  background-color: #3521b5;
+  position: absolute;
+  top:59.9%;
+  left:69%;
+}
+.bottom-rectangle3{
+  width: 150px;
+  height: 50px;
+  background-color: #3521b5;
+  position: absolute;
+  top:40%;
+  left:76.8%;
+}
+.bottom-rectangle4{
+  width: 100px;
+  height: 50px;
+  background-color: #3521b5;
+  position: absolute;
+  top:20%;
+  left:84.5%;
+}
+.bottom-rectangle5{
+  width: 50px;
+  height: 50px;
+  background-color: #3521b5;
+  position: absolute;
+  left:92.2%;
 }
