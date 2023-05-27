@@ -414,3 +414,13 @@ button{
   position: absolute;
   left:92.2%;
 }
+@media (max-width: 767px) {
+  #container {
+    flex-direction: column;
+  }
+
+  .login-form,
+  .presentation {
+    width: 100%;
+  }
+}
