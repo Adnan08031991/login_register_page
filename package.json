@@ -4,20 +4,17 @@
     "private": true,
     "scripts": {
         "serve": "vue-cli-service serve",
-        "build": "vue-cli-service build",
-        "lint": "vue-cli-service lint"
+        "build": "vue-cli-service build"
     },
     "dependencies": {
         "vue": "^3.3.4",
         "vue-router": "^4.0.11"
     },
     "devDependencies": {
+        "@vue/babel-preset-jsx": "^1.4.0",
         "@vue/cli-plugin-babel": "^5.0.0",
-        "@vue/cli-plugin-eslint": "^5.0.0",
         "@vue/cli-service": "^5.0.0",
-        "babel-eslint": "^10.1.0",
-        "eslint": "^7.32.0",
-        "eslint-plugin-vue": "^7.20.0",
+        "babel-plugin-syntax-jsx": "^6.18.0",
         "vue-template-compiler": "^2.6.14"
     }
 }
