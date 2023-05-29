@@ -1,22 +1,22 @@
 <template>
-  <div id="app">
-    <router-view />
-    <MyComponent />
+  <div>
+    <button @click="incrementCount">
+      Count is: {{ count }}
+    </button>
   </div>
 </template>
 
 <script>
-import { defineComponent } from 'vue';
-import MyComponent from './MyComponent.jsx';
-
-export default defineComponent({
-  name: 'App',
-  components: {
-    MyComponent
+export default {
+  data() {
+    return {
+      count: 0
+    };
+  },
+  methods: {
+    incrementCount() {
+      this.count++;
+    }
   }
-});
+};
 </script>
-
-<style lang="css">
-@import './style.css';
-</style>
