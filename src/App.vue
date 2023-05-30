@@ -1,22 +1,16 @@
 <template>
-  <div>
-    <button @click="incrementCount">
-      Count is: {{ count }}
-    </button>
-  </div>
+  <div v-html="htmlContent"></div>
 </template>
 
 <script>
+import htmlFile from '!!raw-loader!./login.html';
+import './style.css';
+
 export default {
   data() {
     return {
-      count: 0
+      htmlContent: htmlFile,
     };
   },
-  methods: {
-    incrementCount() {
-      this.count++;
-    }
-  }
 };
 </script>
